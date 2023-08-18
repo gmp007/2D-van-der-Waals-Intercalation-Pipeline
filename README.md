@@ -1,2 +1,2 @@
-# 2D-van-der-Waals-Intercalation-Pipeline
-A pipeline to automate the creation 2D-based van der Waals materials and intercalating them with organic molecules
+# Custom Design of 2D-based van der Waals Materials
+A pipeline to automate the creation of 2D-based van der Waals materials and intercalating them with organic molecules
