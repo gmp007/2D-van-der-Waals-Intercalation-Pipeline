@@ -8,4 +8,4 @@ To generate structures of organic molecules in lone-gas phase follow the steps b
 
 1. Un-comment lines 50 and 51, and comment-out lines below 51 in the 'run.py' script 
 
-2. Upadate "molecules.txt" with the 
+2. Upadate "molecules.txt" with the PubChem IDs and SMILES of the molecules. This information is available in 
