@@ -1,4 +1,4 @@
-## Instructions on How to generate structures of organic molecules, MX_2 bilayers, and intercalated hybrids (MX2/organic):
+## Instructions on How to generate structures and other VASP input files of organic molecules, $MX_2$ bilayers, and intercalated hybrids (MX2/organic):
 
 Follow these steps to generate structures using the provided workflow files:
 
