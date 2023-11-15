@@ -19,7 +19,7 @@ Follow these steps to generate structures using the provided workflow files:
 Within the `run.py` script:
 
 1. Update the input files:
-   - Update the "molecules.txt" file with PubChem IDs and molecules for intercalation.
+   - Update the "molecules.txt" file with PubChem IDs and SMILES of molecules for intercalation.
    - Update the "Bilayers.txt" file with the chemical composition of bilayer transition metal dichalcogenides.
 
 2. Generate VASP input files:
