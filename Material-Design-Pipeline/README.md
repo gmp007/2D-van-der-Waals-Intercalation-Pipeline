@@ -1,6 +1,7 @@
 ## Instructions on How to generate structures of organic molecules, MX_2 bilayers, and intercalated hybrids (MX2/organic):
 
 Follow these steps to generate structures using the provided workflow files:
+(If you are here for the pre-generated structures of these systems that were used in the active learning workflow, go inside "Structures-VASP-format".)
 
 ### 1. Setup
 1. Copy the contents of the "VDW_workflow_files" directory to a local directory on your machine.
