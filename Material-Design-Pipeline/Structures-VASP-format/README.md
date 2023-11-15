@@ -6,8 +6,8 @@ This directory contains
 
 To generate structures of organic molecules in lone-gas phase follow the steps below: 
 
-1. Un-comment lines 50 and 51, and comment-out lines below 51 in the 'run.py' script 
+1. Un-comment lines 50 and 51, and comment-out lines below 51 in the `run.py` script 
 
 2. Update "molecules.txt" with the PubChem IDs and SMILES of the molecules. This information is available in "Active-Learning-Workflow/DataSource/filtered_planar_mols.txt" or "Active-Learning-Workflow/DataSource/filtered_planar_mol_by_fit.txt" or "Active-Learning-Workflow/DataSource/planar_mols_output_final.txt"
 
-3. Excute script 'run.py'.
+3. Excute script `run.py`.
