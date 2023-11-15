@@ -6,5 +6,10 @@ This directory contains
 
 To generate structures of organic molecules in lone-gas phase follow the steps below: 
 
-1. Un-comment lines 50 and 51, and comment out lines below 51 in the 'run.py' script.
+1. Un-comment lines 50 and 51, and comment out lines below 51 in the 'run.py' script 
+
+'''for i in range(len(SMILES_list)):
+        prep_VASP.make_gas_DFT(SMILES_list[i],mol_names[i])'''
+
+
 2. 
