@@ -12,3 +12,4 @@ But it doesn't contain the structures of the organic intercalants. We can genera
 2. Update "molecules.txt" with the PubChem IDs and SMILES of the molecules. This information is available in "Active-Learning-Workflow/DataSource/filtered_planar_mols.txt" or "Active-Learning-Workflow/DataSource/filtered_planar_mol_by_fit.txt" or "Active-Learning-Workflow/DataSource/planar_mols_output_final.txt"
 
 3. Execute script `run.py`.
+4. This will generate directories named gas_CID (ex: gas_96536576), with the POSCAR, POTCAR, KPOINTS and INCAR required for VASP-optimization.  
