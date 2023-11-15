@@ -1,4 +1,4 @@
-# Instructions on How to Generate Structures of Organic Molecules, MX_2 Bilayers, and Intercalated Hybrids
+## Instructions on How to Generate Structures of Organic Molecules, MX_2 Bilayers, and Intercalated Hybrids
 
 Follow these steps to generate structures using the provided workflow files:
 
