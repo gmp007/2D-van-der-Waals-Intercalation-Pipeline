@@ -29,8 +29,8 @@ This work has been supported in part by the Lehigh University CORE grant and by 
 
 If you use the codes or the computational tools and models provided in this repository for your research, please kindly acknowledge it by citing:
 
-1. Custom Design of 2D-based van der Waals Materials. GitHub Repository. Available at: [Custom2DM]([https://github.com/gmp007/perovskene-materials](https://github.com/gmp007/Custom-Design-of-2D-based-Materials))
-2. 
+1. Custom Design of 2D-based van der Waals Materials. GitHub Repository. Available at: [Custom2DM](https://github.com/gmp007/Custom-Design-of-2D-based-Materials)
+
 
 ## Contact
 
