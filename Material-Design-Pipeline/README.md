@@ -9,7 +9,7 @@ Follow these steps to generate structures using the provided workflow files:
    - Replace the "VDW_PATH" variable within `prep_VASP.py` with the path to the "VDW_workflow_files" directory on your system.
 
 3. Add VASP POTCAR files:
-   - Place VASP POTCAR files in "VDW_workflow_files\POTCAR_files\PBE_52" using the naming convention "POTCAR_"element-symbol"". Ensure inclusion of POTCAR files for all investigated atoms.
+   - Place VASP POTCAR files in "VDW_workflow_files\POTCAR_files\PBE_52" using the naming convention POTCAR_"element-symbol" (ex: POTCAR_H, POTCAR_C). Ensure inclusion of POTCAR files for all investigated atoms.
 
 4. Replace the submission script:
    - Replace the contents of "VDW_workflow_files\other_DFT_files\submit_vasp_gam.sh" with your own HPC submission script.
