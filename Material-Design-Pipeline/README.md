@@ -15,6 +15,29 @@ How to generate structures and other VASP input files of organic molecules, MX2 
 4. Replace the submission script:
    - Replace the contents of "VDW_workflow_files\other_DFT_files\submit_vasp_gam.sh" with your own HPC submission script.
 
+5. Create Conda Environment and Install Packages:
+   - Then create a conda environment - use a name that makes sense:
+     ```
+     conda create --name myenv
+     ```
+   - Now activate the environment:
+     ```
+     source activate myenv
+     ```
+   - Finally, install the following packages (make sure you wait before each package is installed before executing the subsequent commands. this might take a while):
+     1) ```
+        conda install numpy
+        ```
+     2) ```
+        conda install -c conda-forge openbabel
+        ```
+     3) ```
+        conda install -c conda-forge ase
+        ```
+     4) ```
+        conda install -c anaconda scipy
+        ```
+
 ### 2. Execution
 Within the `run.py` script:
 
@@ -35,5 +58,6 @@ Within the `run.py` script:
    - Upon convergence of isolated gas molecules and bilayers:
      - Execute lines 59-61 in the script to generate intercalated structures.
      - Do not re-execute lines 50-56.
+
 
 
