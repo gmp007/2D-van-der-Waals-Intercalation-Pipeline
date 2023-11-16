@@ -37,7 +37,7 @@ How to generate structures and other VASP input files of organic molecules, MX2 
      4) ```
         conda install -c anaconda scipy
         ```
-   6. Alternatively, you can replicate the conda environment using the configuration file "VDW_wrkflow.yml"
+6. Alternatively, you can replicate the conda environment using the configuration file "VDW_wrkflow.yml"
         ```
         conda env create -f VDW_wrkflow.yml -n your-env-name
         ```
