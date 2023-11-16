@@ -16,13 +16,13 @@ How to generate structures and other VASP input files of organic molecules, MX2 
    - Replace the contents of "VDW_workflow_files\other_DFT_files\submit_vasp_gam.sh" with your own HPC submission script.
 
 5. Create Conda Environment and Install Packages:
-   - Then create a conda environment - install rkdit:
+   - Then create a conda environment, name - VDW_wrkflow (can be anything) - install rkdit:
      ```
-     conda create -c conda-forge -n myenv rdkit
+     conda create -c conda-forge -n VDW_wrkflow rdkit
      ```
    - Now activate the environment:
      ```
-     source activate myenv
+     conda activate VDW_wrkflow
      ```
    - Finally, install the following packages (make sure you wait before each package is installed before executing the subsequent commands. this might take a while):
      1) ```
@@ -36,6 +36,10 @@ How to generate structures and other VASP input files of organic molecules, MX2 
         ```
      4) ```
         conda install -c anaconda scipy
+        ```
+   6. Alternatively, you can replicate the conda environment using the configuration file "VDW_wrkflow.yml"
+        ```
+        conda env create -f VDW_wrkflow.yml -n your-env-name
         ```
 
 ### 2. Execution
