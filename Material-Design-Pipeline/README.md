@@ -16,9 +16,9 @@ How to generate structures and other VASP input files of organic molecules, MX2 
    - Replace the contents of "VDW_workflow_files\other_DFT_files\submit_vasp_gam.sh" with your own HPC submission script.
 
 5. Create Conda Environment and Install Packages:
-   - Then create a conda environment - use a name that makes sense:
+   - Then create a conda environment - install rkdit:
      ```
-     conda create --name myenv
+     conda create -c conda-forge -n myenv rdkit
      ```
    - Now activate the environment:
      ```
